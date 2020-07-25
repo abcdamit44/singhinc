@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 250px;
+    height: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 2px solid darkblue;
+    box-shadow: 2px 5px 5px gray;
+}
+
+.card_img img {
+    width: 246px;
+    height: 150px;
+}
+
+.card_body {
+    text-align: center;
+}
+.card_title{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
